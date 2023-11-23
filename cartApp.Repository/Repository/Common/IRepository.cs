@@ -17,5 +17,12 @@ namespace cartApp.Repository.Repository.Common
         void AddRange(IEnumerable<T> entities);
         void Remove(T entity);
         void RemoveRange(IEnumerable<T> entities);
+
+        /*NOTES: The reason why there isn't an Update method 
+         * in new repository patterns (Entity Framework 6) 
+         * is because there's no need for one. 
+         * You simply fetch your record by id, 
+         * make your changes and then commit/save.
+        */
     }
 }

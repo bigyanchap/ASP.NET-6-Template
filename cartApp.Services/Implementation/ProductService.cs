@@ -15,7 +15,7 @@ namespace cartApp.Services.Implementation
             _unitOfWork = unitOfWork;
         }
 
-        public Task Add(Product product)
+        public Task AddProduct(Product product)
         {
             try
             {
@@ -29,7 +29,7 @@ namespace cartApp.Services.Implementation
             return Task.CompletedTask;
         }
 
-        public Task Delete(int id)
+        public Task DeleteProduct(int id)
         {
             var product = _productRepository.GetById(id);
             _productRepository.Remove(product);
@@ -37,20 +37,24 @@ namespace cartApp.Services.Implementation
             return Task.CompletedTask;
         }
 
-        public IEnumerable<Product> GetAll()
+        public IEnumerable<Product> GetAllProducts()
         {
             var products =  this._productRepository.GetAll();
             return products;
         }
 
-        public Product GetById(int id)
+        public Product GetProuctById(int id)
         {
             return _productRepository.GetById(id);
         }
 
-        public Task Update(Product product)
+        public Task UpdateProduct(Product product)
         {
-            throw new NotImplementedException();
+            var _product = this._productRepository.GetById(product.Id);
+            _product.Name = product.Name;
+            _product.Description = product.Description;
+            this._unitOfWork.Commit();
+            return Task.CompletedTask;
         }
     }
 }

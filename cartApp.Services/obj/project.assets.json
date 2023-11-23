@@ -1970,11 +1970,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\bigyan\\Projects\\e-commerce\\backend\\cart\\cartapp\\cartApp.Services\\cartApp.Services.csproj",
+      "projectUniqueName": "D:\\bigyan\\Projects\\e-commerce\\backend\\ASP.NET-6-Template\\cartApp.Services\\cartApp.Services.csproj",
       "projectName": "cartApp.Services",
-      "projectPath": "D:\\bigyan\\Projects\\e-commerce\\backend\\cart\\cartapp\\cartApp.Services\\cartApp.Services.csproj",
+      "projectPath": "D:\\bigyan\\Projects\\e-commerce\\backend\\ASP.NET-6-Template\\cartApp.Services\\cartApp.Services.csproj",
       "packagesPath": "C:\\Users\\sarju\\.nuget\\packages\\",
-      "outputPath": "D:\\bigyan\\Projects\\e-commerce\\backend\\cart\\cartapp\\cartApp.Services\\obj\\",
+      "outputPath": "D:\\bigyan\\Projects\\e-commerce\\backend\\ASP.NET-6-Template\\cartApp.Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1996,14 +1996,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\bigyan\\Projects\\e-commerce\\backend\\cart\\cartapp\\cartApp.DTO\\cartApp.DTO.csproj": {
-              "projectPath": "D:\\bigyan\\Projects\\e-commerce\\backend\\cart\\cartapp\\cartApp.DTO\\cartApp.DTO.csproj"
+            "D:\\bigyan\\Projects\\e-commerce\\backend\\ASP.NET-6-Template\\cartApp.DTO\\cartApp.DTO.csproj": {
+              "projectPath": "D:\\bigyan\\Projects\\e-commerce\\backend\\ASP.NET-6-Template\\cartApp.DTO\\cartApp.DTO.csproj"
             },
-            "D:\\bigyan\\Projects\\e-commerce\\backend\\cart\\cartapp\\cartApp.Entities\\cartApp.Entities.csproj": {
-              "projectPath": "D:\\bigyan\\Projects\\e-commerce\\backend\\cart\\cartapp\\cartApp.Entities\\cartApp.Entities.csproj"
+            "D:\\bigyan\\Projects\\e-commerce\\backend\\ASP.NET-6-Template\\cartApp.Entities\\cartApp.Entities.csproj": {
+              "projectPath": "D:\\bigyan\\Projects\\e-commerce\\backend\\ASP.NET-6-Template\\cartApp.Entities\\cartApp.Entities.csproj"
             },
-            "D:\\bigyan\\Projects\\e-commerce\\backend\\cart\\cartapp\\cartApp.Repository\\cartApp.Repository.csproj": {
-              "projectPath": "D:\\bigyan\\Projects\\e-commerce\\backend\\cart\\cartapp\\cartApp.Repository\\cartApp.Repository.csproj"
+            "D:\\bigyan\\Projects\\e-commerce\\backend\\ASP.NET-6-Template\\cartApp.Repository\\cartApp.Repository.csproj": {
+              "projectPath": "D:\\bigyan\\Projects\\e-commerce\\backend\\ASP.NET-6-Template\\cartApp.Repository\\cartApp.Repository.csproj"
             }
           }
         }

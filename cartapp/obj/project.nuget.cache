@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "InNJxMFQzcJRXN/9JnjHmhqQcQ3xEysc15JOlGT+6GllskKEbNEzg8+OJiHXoV+3CTdsfnndX4Lzd1gQ4GQaeg==",
+  "dgSpecHash": "ntaXr0ISvdqj2dUoEKbV07x/06BhpUoBdGw3lAxv+/qXmQCViHfSVoTVRHtuxzPJHrlOMYQw0v9JXnD28kSLzw==",
   "success": true,
-  "projectFilePath": "D:\\bigyan\\Projects\\e-commerce\\backend\\cart\\cartapp\\cartapp\\cartapp.csproj",
+  "projectFilePath": "D:\\bigyan\\Projects\\e-commerce\\backend\\ASP.NET-6-Template\\cartapp\\cartapp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sarju\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\sarju\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

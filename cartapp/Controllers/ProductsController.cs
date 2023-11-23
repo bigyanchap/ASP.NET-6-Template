@@ -19,7 +19,7 @@ namespace cartapp.Controllers
         [Route("getProducts")]
         public IActionResult GetProducts()
         {
-            var result = this._productService.GetAll();
+            var result = this._productService.GetAllProducts();
             return Ok(result);
         }
         [HttpGet]
@@ -28,7 +28,7 @@ namespace cartapp.Controllers
         {
             try
             {
-                return Ok(this._productService.GetById(id));
+                return Ok(this._productService.GetProuctById(id));
             }
             catch (Exception ex)
             {
@@ -41,7 +41,7 @@ namespace cartapp.Controllers
         {
             try
             {
-                var result = this._productService.Delete(id);
+                var result = this._productService.DeleteProduct(id);
                 return Ok(result);
             }
             catch (Exception ex)
@@ -53,8 +53,22 @@ namespace cartapp.Controllers
         [Route("addProduct")]
         public IActionResult CreateProduct(Product product)
         {
-            _productService.Add(product);
+            _productService.AddProduct(product);
             return Ok();
+        }
+        [HttpPut]
+        [Route("updateProduct")]
+        public IActionResult UpdateProduct(Product product)
+        {
+            try
+            {
+                var result = _productService.UpdateProduct(product);
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
     }
 }

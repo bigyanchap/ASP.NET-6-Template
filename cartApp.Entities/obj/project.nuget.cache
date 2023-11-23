@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cJKaxu57fDiOyo0G6c4RYsf3vYnkdVGAfETDMZG2vGNUUzAS2Z0fBKYm5OIcsAnFj0ftqrmKI1DsbIUnSgCS/A==",
+  "dgSpecHash": "oDx1Al5fiS6JgyN2uf1ij2ibewZKyHS0wVg1H7l1dHtlg1lFiIbU9MWFdEHVWQuJLpNmyJUQ/WoB/jihQCdI2g==",
   "success": true,
-  "projectFilePath": "D:\\bigyan\\Projects\\e-commerce\\backend\\cart\\cartapp\\cartApp.Entities\\cartApp.Entities.csproj",
+  "projectFilePath": "D:\\bigyan\\Projects\\e-commerce\\backend\\ASP.NET-6-Template\\cartApp.Entities\\cartApp.Entities.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

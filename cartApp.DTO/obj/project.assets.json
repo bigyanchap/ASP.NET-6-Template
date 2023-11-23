@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\bigyan\\Projects\\e-commerce\\backend\\cart\\cartapp\\cartApp.DTO\\cartApp.DTO.csproj",
+      "projectUniqueName": "D:\\bigyan\\Projects\\e-commerce\\backend\\ASP.NET-6-Template\\cartApp.DTO\\cartApp.DTO.csproj",
       "projectName": "cartApp.DTO",
-      "projectPath": "D:\\bigyan\\Projects\\e-commerce\\backend\\cart\\cartapp\\cartApp.DTO\\cartApp.DTO.csproj",
+      "projectPath": "D:\\bigyan\\Projects\\e-commerce\\backend\\ASP.NET-6-Template\\cartApp.DTO\\cartApp.DTO.csproj",
       "packagesPath": "C:\\Users\\sarju\\.nuget\\packages\\",
-      "outputPath": "D:\\bigyan\\Projects\\e-commerce\\backend\\cart\\cartapp\\cartApp.DTO\\obj\\",
+      "outputPath": "D:\\bigyan\\Projects\\e-commerce\\backend\\ASP.NET-6-Template\\cartApp.DTO\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

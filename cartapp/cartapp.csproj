@@ -23,4 +23,8 @@
     <ProjectReference Include="..\cartApp.Services\cartApp.Services.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Content\" />
+  </ItemGroup>
+
 </Project>

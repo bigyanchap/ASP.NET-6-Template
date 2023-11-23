@@ -9,10 +9,10 @@ namespace cartApp.Services.Infrastructure
 {
     public interface IProductService
     {
-        IEnumerable<Product> GetAll();
-        Product GetById(int id);
-        Task Add(Product product);
-        Task Update(Product product);
-        Task Delete(int id);
+        IEnumerable<Product> GetAllProducts();
+        Product GetProuctById(int id);
+        Task AddProduct(Product product);
+        Task UpdateProduct(Product product);
+        Task DeleteProduct(int id);
     }
 }
