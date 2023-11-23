@@ -1,0 +1,11 @@
+D:\bigyan\Projects\e-commerce\backend\cart\cartapp\cartApp.Entities\bin\Debug\net6.0\cartApp.Entities.deps.json
+D:\bigyan\Projects\e-commerce\backend\cart\cartapp\cartApp.Entities\bin\Debug\net6.0\cartApp.Entities.dll
+D:\bigyan\Projects\e-commerce\backend\cart\cartapp\cartApp.Entities\bin\Debug\net6.0\cartApp.Entities.pdb
+D:\bigyan\Projects\e-commerce\backend\cart\cartapp\cartApp.Entities\obj\Debug\net6.0\cartApp.Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\bigyan\Projects\e-commerce\backend\cart\cartapp\cartApp.Entities\obj\Debug\net6.0\cartApp.Entities.AssemblyInfoInputs.cache
+D:\bigyan\Projects\e-commerce\backend\cart\cartapp\cartApp.Entities\obj\Debug\net6.0\cartApp.Entities.AssemblyInfo.cs
+D:\bigyan\Projects\e-commerce\backend\cart\cartapp\cartApp.Entities\obj\Debug\net6.0\cartApp.Entities.csproj.CoreCompileInputs.cache
+D:\bigyan\Projects\e-commerce\backend\cart\cartapp\cartApp.Entities\obj\Debug\net6.0\cartApp.Entities.dll
+D:\bigyan\Projects\e-commerce\backend\cart\cartapp\cartApp.Entities\obj\Debug\net6.0\refint\cartApp.Entities.dll
+D:\bigyan\Projects\e-commerce\backend\cart\cartapp\cartApp.Entities\obj\Debug\net6.0\cartApp.Entities.pdb
+D:\bigyan\Projects\e-commerce\backend\cart\cartapp\cartApp.Entities\obj\Debug\net6.0\ref\cartApp.Entities.dll
