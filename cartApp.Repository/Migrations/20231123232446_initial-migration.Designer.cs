@@ -11,8 +11,8 @@ using cartApp.Repository;
 namespace cartApp.Repository.Migrations
 {
     [DbContext(typeof(CartAppDbContext))]
-    [Migration("20231116185316_initial")]
-    partial class initial
+    [Migration("20231123232446_initial-migration")]
+    partial class initialmigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -36,6 +36,9 @@ namespace cartApp.Repository.Migrations
 
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("Price")
+                        .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id");
 
