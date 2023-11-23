@@ -1,4 +1,5 @@
-﻿using cartApp.Entities;
+﻿using cartApp.DTO;
+using cartApp.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +13,7 @@ namespace cartApp.Services.Infrastructure
         IEnumerable<Product> GetAllProducts();
         Product GetProuctById(int id);
         Task AddProduct(Product product);
-        Task UpdateProduct(Product product);
+        Task UpdateProduct(ProductDTO product);
         Task DeleteProduct(int id);
     }
 }

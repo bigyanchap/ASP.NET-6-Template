@@ -1,4 +1,5 @@
-﻿using cartApp.Entities;
+﻿using cartApp.DTO;
+using cartApp.Entities;
 using cartApp.Services;
 using cartApp.Services.Infrastructure;
 using Microsoft.AspNetCore.Http;
@@ -58,7 +59,7 @@ namespace cartapp.Controllers
         }
         [HttpPut]
         [Route("updateProduct")]
-        public IActionResult UpdateProduct(Product product)
+        public IActionResult UpdateProduct(ProductDTO product)
         {
             try
             {

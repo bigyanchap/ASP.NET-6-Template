@@ -1,4 +1,6 @@
-﻿using cartApp.Entities;
+﻿using AutoMapper;
+using cartApp.DTO;
+using cartApp.Entities;
 using cartApp.Repository.Repository.Common;
 using cartApp.Repository.Repository.Infrastructure;
 using cartApp.Services.Infrastructure;
@@ -9,10 +11,16 @@ namespace cartApp.Services.Implementation
     {
         IProductRepository _productRepository;
         IUnitOfWork _unitOfWork;
-        public ProductService(IProductRepository productRepository, IUnitOfWork unitOfWork)
+        IMapper _mapper;
+        public ProductService(
+            IProductRepository productRepository, 
+            IUnitOfWork unitOfWork,
+            IMapper mapper
+        )
         {
             _productRepository = productRepository;
             _unitOfWork = unitOfWork;
+            _mapper = mapper;
         }
 
         public Task AddProduct(Product product)
@@ -48,11 +56,10 @@ namespace cartApp.Services.Implementation
             return _productRepository.GetById(id);
         }
 
-        public Task UpdateProduct(Product product)
+        public Task UpdateProduct(ProductDTO productDTO)
         {
-            var _product = this._productRepository.GetById(product.Id);
-            _product.Name = product.Name;
-            _product.Description = product.Description;
+            var product = this._productRepository.GetById(productDTO.Id);
+            _mapper.Map(productDTO, product);
             this._unitOfWork.Commit();
             return Task.CompletedTask;
         }

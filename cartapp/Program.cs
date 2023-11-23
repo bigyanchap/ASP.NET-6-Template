@@ -5,6 +5,7 @@ using cartApp.Repository.Repository.Common;
 using cartApp.Repository.Repository;
 using cartApp.Services.Infrastructure;
 using cartApp.Services.Implementation;
+using cartApp.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,7 +18,11 @@ builder.Services.AddDbContext<CartAppDbContext>(options =>
 
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+// Register AutoMapper
+builder.Services.AddAutoMapper(typeof(MappingProfile)); 
+// MappingProfile.cs should be in cartApp.Services
+// because that's where all business logic goes
+// and that's where we need to do all the mapping.
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
