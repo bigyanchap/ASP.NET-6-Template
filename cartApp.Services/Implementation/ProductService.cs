@@ -51,7 +51,7 @@ namespace cartApp.Services.Implementation
             return products;
         }
 
-        public Product GetProuctById(int id)
+        public Product GetProductById(int id)
         {
             return _productRepository.GetById(id);
         }

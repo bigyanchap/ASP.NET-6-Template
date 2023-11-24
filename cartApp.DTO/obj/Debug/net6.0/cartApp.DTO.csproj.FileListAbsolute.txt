@@ -9,3 +9,14 @@ D:\bigyan\Projects\e-commerce\backend\cart\cartapp\cartApp.DTO\obj\Debug\net6.0\
 D:\bigyan\Projects\e-commerce\backend\cart\cartapp\cartApp.DTO\obj\Debug\net6.0\refint\cartApp.DTO.dll
 D:\bigyan\Projects\e-commerce\backend\cart\cartapp\cartApp.DTO\obj\Debug\net6.0\cartApp.DTO.pdb
 D:\bigyan\Projects\e-commerce\backend\cart\cartapp\cartApp.DTO\obj\Debug\net6.0\ref\cartApp.DTO.dll
+D:\bigyan\Projects\e-commerce\backend\ASP.NET-6-Template\cartApp.DTO\bin\Debug\net6.0\cartApp.DTO.deps.json
+D:\bigyan\Projects\e-commerce\backend\ASP.NET-6-Template\cartApp.DTO\bin\Debug\net6.0\cartApp.DTO.dll
+D:\bigyan\Projects\e-commerce\backend\ASP.NET-6-Template\cartApp.DTO\bin\Debug\net6.0\cartApp.DTO.pdb
+D:\bigyan\Projects\e-commerce\backend\ASP.NET-6-Template\cartApp.DTO\obj\Debug\net6.0\cartApp.DTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\bigyan\Projects\e-commerce\backend\ASP.NET-6-Template\cartApp.DTO\obj\Debug\net6.0\cartApp.DTO.AssemblyInfoInputs.cache
+D:\bigyan\Projects\e-commerce\backend\ASP.NET-6-Template\cartApp.DTO\obj\Debug\net6.0\cartApp.DTO.AssemblyInfo.cs
+D:\bigyan\Projects\e-commerce\backend\ASP.NET-6-Template\cartApp.DTO\obj\Debug\net6.0\cartApp.DTO.csproj.CoreCompileInputs.cache
+D:\bigyan\Projects\e-commerce\backend\ASP.NET-6-Template\cartApp.DTO\obj\Debug\net6.0\cartApp.DTO.dll
+D:\bigyan\Projects\e-commerce\backend\ASP.NET-6-Template\cartApp.DTO\obj\Debug\net6.0\refint\cartApp.DTO.dll
+D:\bigyan\Projects\e-commerce\backend\ASP.NET-6-Template\cartApp.DTO\obj\Debug\net6.0\cartApp.DTO.pdb
+D:\bigyan\Projects\e-commerce\backend\ASP.NET-6-Template\cartApp.DTO\obj\Debug\net6.0\ref\cartApp.DTO.dll

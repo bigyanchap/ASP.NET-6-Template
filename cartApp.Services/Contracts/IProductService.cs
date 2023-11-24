@@ -11,7 +11,7 @@ namespace cartApp.Services.Infrastructure
     public interface IProductService
     {
         IEnumerable<Product> GetAllProducts();
-        Product GetProuctById(int id);
+        Product GetProductById(int id);
         Task AddProduct(Product product);
         Task UpdateProduct(ProductDTO product);
         Task DeleteProduct(int id);

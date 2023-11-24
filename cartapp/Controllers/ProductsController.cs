@@ -29,7 +29,7 @@ namespace cartapp.Controllers
         {
             try
             {
-                return Ok(this._productService.GetProuctById(id));
+                return Ok(this._productService.GetProductById(id));
             }
             catch (Exception ex)
             {

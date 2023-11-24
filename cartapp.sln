@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cartApp.Repository", "cartA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cartApp.Services", "cartApp.Services\cartApp.Services.csproj", "{AFBF08C9-A16E-462C-B991-7EE9AC9FCF9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cartApp.DTO", "cartApp.DTO\cartApp.DTO.csproj", "{EC9AAFAC-F25B-47BB-AB40-40CD28E29D01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cartApp.DTO", "cartApp.DTO\cartApp.DTO.csproj", "{EC9AAFAC-F25B-47BB-AB40-40CD28E29D01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cartApp.Test", "cartApp.Test\cartApp.Test.csproj", "{61A754D0-37A4-4787-AF29-84920DC274C2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{EC9AAFAC-F25B-47BB-AB40-40CD28E29D01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC9AAFAC-F25B-47BB-AB40-40CD28E29D01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC9AAFAC-F25B-47BB-AB40-40CD28E29D01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61A754D0-37A4-4787-AF29-84920DC274C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61A754D0-37A4-4787-AF29-84920DC274C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61A754D0-37A4-4787-AF29-84920DC274C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61A754D0-37A4-4787-AF29-84920DC274C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
