@@ -27,8 +27,16 @@ x86/
 [Aa][Rr][Mm]/
 [Aa][Rr][Mm]64/
 bld/
+cartapp/obj
+cartapp/bin
 cartApp.Repository/obj
 cartApp.Repository/bin
+cartApp.Entities/bin
+cartApp.Entities/obj
+cartApp.DTO/bin
+cartApp.DTO/obj
+cartApp.Services/bin
+cartApp.Services/obj
 [Bb]in/
 [Oo]bj/
 [Ll]og/
